@@ -4,7 +4,7 @@ const { mainModule } = require("process");
 async function getFollowerUrl(name) {
   const authObj = {
     headers: {
-      Authorization: "token <token here>",
+      Authorization: "token 7f6831a6cf06cfcb4fc1f436b59ffae465d04462",
     },
   };
 
@@ -39,4 +39,4 @@ async function getFollowerUrl(name) {
   console.log(dualFollowing);
 }
 
-getFollowerUrl("someone");
+getFollowerUrl("dabreadman");
